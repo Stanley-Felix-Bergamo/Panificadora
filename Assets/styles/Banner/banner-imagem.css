@@ -1,0 +1,5 @@
+.Banner__imagem {
+    background: url('/Assets/imgs/Banner/banner.jpg') no-repeat center/cover;
+    width: 100%;
+    height: calc(100vh - 110.64px);
+}
