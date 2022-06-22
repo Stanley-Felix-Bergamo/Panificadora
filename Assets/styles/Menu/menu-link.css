@@ -1,0 +1,19 @@
+.Menu__link:last-child .Menu__link {
+    margin-right: 0;
+}
+
+.Menu__link {
+    text-decoration: none;
+    text-transform: lowercase;
+    margin-right: 1.25rem;
+    color: #808080;
+}
+
+.Menu__link.ativo {
+    color: #333333;
+    font-weight: bold;
+}
+
+.Menu__link:hover {
+    text-decoration: underline;
+}
