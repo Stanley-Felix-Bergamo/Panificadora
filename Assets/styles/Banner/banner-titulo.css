@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
-.Banner__texto {
+.Banner__titulo {
     font-family: 'Pacifico',
         cursive;
     color: #f4f4f4f4;
-    font-size: 7rem;
+    font-size: 4.50rem;
     text-align: center;
     text-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
     position: absolute;
