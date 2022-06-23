@@ -1,0 +1,15 @@
+#Menu__botao {
+    display: none;
+    color: #7D6F53;
+    background: transparent;
+}
+
+@media (max-width:600px) {
+    #Menu__botao {
+        display: flex;
+        padding: .5rem 1rem;
+        border: none;
+        cursor: pointer;
+        gap: .7rem;
+    }
+}

@@ -1,0 +1,31 @@
+#Menu__hamburguer {
+    width: 20px;
+    border-top: 2px solid;
+    display: block;
+}
+
+#Menu__hamburguer::after,
+#Menu__hamburguer::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: .3s;
+    position: relative;
+}
+
+#Menu.active #Menu__hamburguer {
+    border-top-color: transparent;
+
+}
+
+#Menu.active #Menu__hamburguer::before {
+    transform: rotate(320deg);
+}
+
+#Menu.active #Menu__hamburguer::after {
+    transform: rotate(-320deg);
+    top: -7px;
+}

@@ -1,3 +1,43 @@
-.Menu__lista {
+#Menu__lista {
     display: flex;
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+@media (max-width:600px) {
+
+    #Menu__lista {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 57px;
+        right: 0;
+        background: #F9F9F9;
+        height: 0px;
+        transition: .6s;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #Menu__lista a {
+        font-size: 1.635rem;
+        padding: 1px 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.558);
+    }
+
+    #Menu.active #Menu__lista {
+        height: calc(100vh - 73.51px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
 }
