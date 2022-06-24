@@ -1,5 +1,5 @@
 .Banner__imagem {
-    background: url('/Assets/imgs/Banner/1092794.jpg') no-repeat center/cover;
+    background: url('../../imgs/banner.jpg') no-repeat center/cover;
     width: 100%;
     height: calc(100vh - 102px);
 }
