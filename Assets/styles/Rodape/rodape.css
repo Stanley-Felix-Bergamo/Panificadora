@@ -1,4 +1,5 @@
 .Rodape {
+    background: var(--CorCabecalho);
     position: relative;
     padding: 1rem;
 }

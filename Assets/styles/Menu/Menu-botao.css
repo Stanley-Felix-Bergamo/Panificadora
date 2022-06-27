@@ -1,6 +1,6 @@
 #Menu__botao {
     display: none;
-    color: #7D6F53;
+    color: var(--CorMarrom);
     background: transparent;
 }
 

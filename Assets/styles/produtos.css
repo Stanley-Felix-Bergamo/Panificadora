@@ -1,5 +1,5 @@
 .Protutos {
-    background: #F9F9F9;
+    background: var(--CorFundo);
     display: flex;
     flex-wrap: wrap;
     padding: 5rem 0 0 5rem;

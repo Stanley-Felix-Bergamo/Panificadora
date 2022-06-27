@@ -1,6 +1,5 @@
 .Sobre__titulo {
-    color: #7D6F53;
-    font-family: 'Pacifico',
-        cursive;
+    color: var(--CorMarrom);
+    font-family: var(--LetraCursiva);
     font-size: 3.1875rem;
 }

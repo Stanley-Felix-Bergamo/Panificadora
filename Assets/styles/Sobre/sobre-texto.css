@@ -1,6 +1,5 @@
 .Sobre__texto {
-    font-family: 'Roboto',
-        sans-serif;
+    font-family: var(--LetraRoboto);
     font-size: 2rem;
     font-weight: 100;
 }

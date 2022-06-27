@@ -1,14 +1,13 @@
 .Produto__botao {
     cursor: pointer;
-    background: #7D6F53;
+    background: var(--CorMarrom);
     border: transparent;
     transition: all .5s ease-in-out;
     padding: 13px;
     border-radius: 5px;
-    color: #fdfdff;
-
+    color: white;
 }
 
 .Produto__botao:hover {
-    background: #7d6f53a0;
+    background: var(--CorMarromClaro);
 }
