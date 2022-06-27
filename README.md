@@ -2,7 +2,6 @@
     <img alt="Logo" src="https://github.com/Stanley-Felix-Bergamo/Panificadora/blob/master/Assets/imgs/Logo/Logo-removebg-preview.png" width="150px" />
 </h1>
 
-<p>Site Informativo, onde o usuário pode explorar</p>
 <p>Saiba mais acessando o site <a href="https://stanley-felix-bergamo.github.io/Panificadora/">Clicando aki</a></p> 
 
 <h2>💻 Tecnologias utilizadas</h2>
