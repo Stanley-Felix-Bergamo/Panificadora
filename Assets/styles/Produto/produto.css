@@ -2,8 +2,8 @@
         display: flex;
         flex-direction: row;
         margin-bottom: 2rem;
+        box-shadow: 15px 15px 5px -5px rgba(0, 0, 0, 0.708);
     }
-
 
     @media screen and (min-width:768px) {
         .Produto {
@@ -12,13 +12,5 @@
             margin-bottom: 5rem;
             margin-right: 5rem;
             width: calc(25% - 5rem);
-        }
-
-    }
-
-    @media screen and (min-width:1024px) {
-
-        .Produto {
-            box-shadow: 15px 15px 5px -5px rgba(0, 0, 0, 0.708);
         }
     }
