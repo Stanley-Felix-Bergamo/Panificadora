@@ -5,6 +5,11 @@
         box-shadow: 15px 15px 5px -5px rgba(0, 0, 0, 0.708);
     }
 
+    .Produto:hover {
+        transition: all 0.3s ease-out;
+        transform: translateY(-10px);
+    }
+
     @media screen and (min-width:768px) {
         .Produto {
             flex-direction: column;
