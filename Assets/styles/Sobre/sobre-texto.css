@@ -8,7 +8,12 @@
     @media screen and (min-width:768px) {
         .Sobre__texto {
             font-family: var(--LetraRoboto);
+            font-size: 1.60rem;
+        }
+    }
+
+    @media screen and (min-width:1000px) {
+        .Sobre__texto {
             font-size: 2rem;
-            font-weight: 100;
         }
     }

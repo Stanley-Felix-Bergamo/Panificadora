@@ -6,6 +6,12 @@
     .Protutos {
         display: flex;
         flex-wrap: wrap;
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .Protutos {
         padding: 5rem 0 0 5rem;
     }
 }

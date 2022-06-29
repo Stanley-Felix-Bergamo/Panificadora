@@ -7,7 +7,8 @@
 
 @media screen and (min-width:768px) {
     .Produto__conteudo {
-        width: 140px;
+        width: 8rem;
+        height: 30vh;
     }
 }
 
@@ -16,5 +17,6 @@
     .Produto__conteudo {
         width: 240px;
         padding: 1.25rem;
+        height: 20vh;
     }
 }
