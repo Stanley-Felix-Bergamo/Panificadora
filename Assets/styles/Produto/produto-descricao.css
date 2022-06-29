@@ -1,4 +1,11 @@
 .Produto__descricao {
-    text-align: justify;
+    text-align: left;
     line-height: 1.5;
+}
+
+@media screen and (min-winth:768px) {
+    .Produto__descricao {
+        text-align: justify;
+        line-height: 1.5;
+    }
 }

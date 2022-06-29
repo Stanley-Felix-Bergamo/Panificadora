@@ -2,7 +2,6 @@
         display: flex;
         flex-direction: row;
         margin-bottom: 2rem;
-
     }
 
 
@@ -15,4 +14,11 @@
             width: calc(25% - 5rem);
         }
 
+    }
+
+    @media screen and (min-width:1024px) {
+
+        .Produto {
+            box-shadow: 15px 15px 5px -5px rgba(0, 0, 0, 0.708);
+        }
     }
