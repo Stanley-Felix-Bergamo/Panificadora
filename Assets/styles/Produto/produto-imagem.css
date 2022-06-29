@@ -1,3 +1,19 @@
 .Produto__imagem {
-    height: 200px;
+    height: 185px;
+    width: 185px;
+}
+
+
+@media screen and (min-width:768px) {
+    .Produto__imagem {
+        height: 100px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .Produto__imagem {
+        height: 200px;
+        width: auto;
+    }
 }

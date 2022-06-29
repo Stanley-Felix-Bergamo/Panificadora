@@ -1,11 +1,9 @@
 .Protutos {
-    background: var(--CorFundo);
+    margin-top: 2rem;
 
 }
 
-@media screen and (min-width:768px) {}
-
-@media screen and (min-width:1024px) {
+@media screen and (min-width:768px) {
     .Protutos {
         display: flex;
         flex-wrap: wrap;
