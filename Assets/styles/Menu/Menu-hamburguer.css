@@ -22,10 +22,10 @@
 }
 
 #Menu.active #Menu__hamburguer::before {
-    transform: rotate(320deg);
+    transform: rotate(120deg);
 }
 
 #Menu.active #Menu__hamburguer::after {
-    transform: rotate(-320deg);
+    transform: rotate(-120deg);
     top: -7px;
 }
