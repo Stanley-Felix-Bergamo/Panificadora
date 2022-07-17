@@ -4,6 +4,7 @@
 
 <p>Saiba mais acessando o site <a href="https://stanley-felix-bergamo.github.io/Panificadora/">Clicando aki</a></p> 
 
+
 <h2>💻 Tecnologias utilizadas</h2>
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 <br/><br/>
